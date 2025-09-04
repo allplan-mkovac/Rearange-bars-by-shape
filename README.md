@@ -2,26 +2,18 @@
 This script automates the renumbering, sorting, and merging of reinforcement bars using Allplan PythonParts. It helps organize reinforcement bars by length, diameter, or shape code as specified by the user, and simplifies the preparation of clear drawings and reinforcement schedules.
 
 Main script features
-Renumbering all reinforcement bars in open files.
-
-Sorting bars by length, diameter, or shape code.
-
-Merging identical bars.
-
-Differentiating between straight and bent bars.
+- Renumbering all reinforcement bars in open files.
+- Sorting bars by length, diameter, or shape code.
+- Merging identical bars.
+- Differentiating between straight and bent bars.
 
 Control options
 The script provides several modes:
-
-Complete renumbering: renumbers all bars according to the current order or sorting.
-
-Renumbering only straight bars.
-
-Renumbering and merging straight bars.
-
-Renumbering bent bars.
-
-Renumbering and merging bent bars.
+- Complete renumbering: renumbers all bars according to the current order or sorting.
+- Renumbering only straight bars.
+- Renumbering and merging straight bars.
+- Renumbering bent bars.
+- Renumbering and merging bent bars.
 
 All operations are visualized in the Allplan environment using a progress bar.
 
