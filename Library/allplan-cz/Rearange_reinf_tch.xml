@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Element>
+    <StringTable>Allplan PythonParts string table</StringTable>
+    <Item>
+        <TextId>100</TextId>
+        <Text>Přečíslování výztuže dle tvaru</Text>
+    </Item>
+    <Item>
+        <TextId>1001</TextId>
+        <Text>Přímé pruty od č.</Text>
+    </Item>
+    <Item>
+        <TextId>1002</TextId>
+        <Text>Seřadit dle délky</Text>
+    </Item>
+    <Item>
+        <TextId>1003</TextId>
+        <Text>Setřídí položky od nejkratší po nejdelší</Text>
+    </Item>
+    <Item>
+        <TextId>1004</TextId>
+        <Text>Seřadit dle průměru a délky</Text>
+    </Item>
+    <Item>
+        <TextId>1005</TextId>
+        <Text>Setřídí položky nejprve podle průměru a poté podle délky</Text>
+    </Item>
+    <Item>
+        <TextId>1006</TextId>
+        <Text>Zablokování</Text>
+    </Item>
+    <Item>
+        <TextId>1007</TextId>
+        <Text>Zaokrouhlení</Text>
+    </Item>
+    <Item>
+        <TextId>1008</TextId>
+        <Text>Text před</Text>
+    </Item>
+    <Item>
+        <TextId>1009</TextId>
+        <Text>Přímé pruty</Text>
+    </Item>
+    <Item>
+        <TextId>1010</TextId>
+        <Text>Přečísluje pouze přímé pruty a seřadí je od zadaného čísla</Text>
+    </Item>
+    <Item>
+        <TextId>1011</TextId>
+        <Text>Přečíslovat</Text>
+    </Item>
+    <Item>
+        <TextId>1012</TextId>
+        <Text>Přečísluje a sjednotí pouze přímé pruty a seřadí je od zadaného čísla</Text>
+    </Item>
+    <Item>
+        <TextId>1013</TextId>
+        <Text>Přečíslovat a sjednotit</Text>
+    </Item>
+    <Item>
+        <TextId>1014</TextId>
+        <Text>Ohýbané pruty od č.</Text>
+    </Item>
+    <Item>
+        <TextId>1015</TextId>
+        <Text>Ohýbané pruty</Text>
+    </Item>
+    <Item>
+        <TextId>1016</TextId>
+        <Text>Přečísluje pouze ohýbané pruty a seřadí je od zadaného čísla</Text>
+    </Item>
+    <Item>
+        <TextId>1017</TextId>
+        <Text>Přečísluje a sjednotí pouze ohýbané pruty a seřadí je od zadaného čísla</Text>
+    </Item>
+    <Item>
+        <TextId>1018</TextId>
+        <Text>Vše</Text>
+    </Item>
+    <Item>
+        <TextId>1019</TextId>
+        <Text>Přečísluje veškeré pruty a seřadí je od zadaného čísla</Text>
+    </Item>
+    <Item>
+        <TextId>1020</TextId>
+        <Text>Přečíslovat vše dle nastavení</Text>
+    </Item>
+    <Item>
+        <TextId>1021</TextId>
+        <Text>Přečíslovat vše dle tvaru</Text>
+    </Item>
+    <Item>
+        <TextId>1022</TextId>
+        <Text>Dočasné přečíslování</Text>
+    </Item>
+    <Item>
+        <TextId>1023</TextId>
+        <Text>Slouží k dočasnému přesunutí prutů na vysoké pozice aby se zamezilo kolizím při přečíslování</Text>
+    </Item>
+    <Item>
+        <TextId>1024</TextId>
+        <Text>Přečíslovat (9000)</Text>
+    </Item>
+</Element>

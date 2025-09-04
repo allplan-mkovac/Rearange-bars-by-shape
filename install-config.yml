@@ -1,0 +1,29 @@
+plugin:
+  name: Rearange rebar by shape
+  UUID: 86ce26b5-5603-462b-96e7-fe822aee893a
+  version: 1.0.0
+  developer: allplan-cz
+  default-language: CZ
+  min-allplan-version: 2026
+
+installation:
+  target-location: STD
+
+tools:
+  - id: Rearange-rebar-by-shape
+    pyp: Library\allplan-cz\Rearange_reinf.pyp
+    display-name:
+      en: Rearange rebar by shape
+      de: Bewehrung nach Form umsortieren
+      cz: Přečíslování výztuže dle tvaru
+    icons:
+      small: PythonPartsActionbar\allplan-cz\Rearange_reinf_24.png
+      large: PythonPartsActionbar\allplan-cz\Rearange_reinf_128.png
+
+task-area:
+  display-name:
+    en: Rearange rebar by shape
+    de: Bewehrung nach Form umsortieren
+    cz: Přečíslování výztuže dle tvaru
+  layout:
+    - Rearange-rebar-by-shape
