@@ -3,7 +3,7 @@
     <Script>
         <Name>allplan-cz\Rearange_reinf.py</Name>
         <Title>Přečíslování výztuže dle tvaru</Title>
-        <TextId>100</TextId>
+        <TextId>1050</TextId>
         <Interactor>False</Interactor>
         <Version>0.1.0</Version>
         <ShowFavoriteButtons>True</ShowFavoriteButtons>
@@ -90,8 +90,8 @@
 
             <Parameter>
                 <Name>ButtonRow1</Name>
-                <Text>Přímé pruty</Text>
-                <TextId>1009</TextId>
+                <Text>Přečíslovat</Text>
+                <TextId>1011</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
@@ -111,8 +111,8 @@
                 </Parameter>
             </Parameter>
             <Parameter>
-                <Name>ButtonRow1</Name>
-                <Text></Text>
+                <Text>Přečíslovat a sjednotit</Text>
+                <TextId>1013</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
@@ -215,8 +215,8 @@
 
             <Parameter>
                 <Name>ButtonRow</Name>
-                <Text>Ohýbané pruty</Text>
-                <TextId>1015</TextId>
+                <Text>Přečíslovat</Text>
+                <TextId>1011</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
@@ -236,7 +236,8 @@
             </Parameter>
             <Parameter>
                 <Name>ButtonRow</Name>
-                <Text></Text>
+                <Text>Přečíslovat a sjednotit</Text>
+                <TextId>1013</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>

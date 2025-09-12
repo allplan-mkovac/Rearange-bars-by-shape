@@ -2,7 +2,7 @@
 <Element>
     <StringTable>Allplan PythonParts string table</StringTable>
     <Item>
-        <TextId>100</TextId>
+        <TextId>1050</TextId>
         <Text>Přečíslování výztuže dle tvaru</Text>
     </Item>
     <Item>
