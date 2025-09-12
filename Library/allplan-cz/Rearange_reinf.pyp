@@ -3,7 +3,7 @@
     <Script>
         <Name>allplan-cz\Rearange_reinf.py</Name>
         <Title>Přečíslování výztuže dle tvaru</Title>
-        <TextID>100</TextID>
+        <TextId>100</TextId>
         <Interactor>False</Interactor>
         <Version>0.1.0</Version>
         <ShowFavoriteButtons>True</ShowFavoriteButtons>
@@ -16,7 +16,7 @@
             <Parameter>
                 <Name>starting_mark_number_straight</Name>
                 <Text>Přímé pruty od č.</Text>
-                <TextID>1001</TextID>
+                <TextId>1001</TextId>
                 <Value>100</Value>
                 <ValueType>Integer</ValueType>
             </Parameter>
@@ -24,13 +24,13 @@
 
             <Parameter>
                 <Text>Seřadit dle délky</Text>
-                <TextID>1002</TextID>
+                <TextId>1002</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Setřídí položky od nejkratší po nejdelší</Text>
-                    <TextID>1003</TextID>
+                    <TextId>1003</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
@@ -44,13 +44,13 @@
 
             <Parameter>
                 <Text>Seřadit dle průměru a délky</Text>
-                <TextID>1004</TextID>
+                <TextId>1004</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Setřídí položky nejprve podle průměru a poté podle délky</Text>
-                    <TextID>1005</TextID>
+                    <TextId>1005</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
@@ -65,7 +65,7 @@
             <Parameter>
                 <Name>lock_straight</Name>
                 <Text>Zablokování</Text>
-                <TextID>1006</TextID>
+                <TextId>1006</TextId>
                 <Value>False</Value>
                 <Visible>True</Visible>
                 <ValueType>CheckBox</ValueType>
@@ -73,7 +73,7 @@
             <Parameter>
                 <Name>round_straight</Name>
                 <Text>Zaokrouhlení</Text>
-                <TextID>1007</TextID>
+                <TextId>1007</TextId>
                 <Value>1</Value>
                 <Visible>True</Visible>
                 <ValueType>Length</ValueType>
@@ -82,7 +82,7 @@
             <Parameter>
                 <Name>identical_prefix_straight</Name>
                 <Text>Text před</Text>
-                <TextID>1008</TextID>
+                <TextId>1008</TextId>
                 <Value>False</Value>
                 <Visible>False</Visible>
                 <ValueType>CheckBox</ValueType>
@@ -91,7 +91,7 @@
             <Parameter>
                 <Name>ButtonRow1</Name>
                 <Text>Přímé pruty</Text>
-                <TextID>1009</TextID>
+                <TextId>1009</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
@@ -105,7 +105,7 @@
                 <Parameter>
                     <Name>Button</Name>
                     <Text>Přečíslovat</Text>
-                    <TextID>1011</TextID>
+                    <TextId>1011</TextId>
                     <EventId>1001</EventId>
                     <ValueType>Button</ValueType>
                 </Parameter>
@@ -118,14 +118,14 @@
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Přečísluje a sjednotí pouze přímé pruty a seřadí je od zadaného čísla</Text>
-                    <TextID>1012</TextID>
+                    <TextId>1012</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
                 <Parameter>
                     <Name>Button1</Name>
                     <Text>Přečíslovat a sjednotit</Text>
-                    <TextID>1013</TextID>
+                    <TextId>1013</TextId>
                     <EventId>1011</EventId>
                     <ValueType>Button</ValueType>
                 </Parameter>
@@ -140,7 +140,7 @@
             <Parameter>
                 <Name>starting_mark_number_bend</Name>
                 <Text>Ohýbané pruty od č.</Text>
-                <TextID>1014</TextID>
+                <TextId>1014</TextId>
                 <Value>200</Value>
                 <ValueType>Integer</ValueType>
             </Parameter>
@@ -148,13 +148,13 @@
             <Parameter>
                 <Name>sorting_bend</Name>
                 <Text>Seřadit dle délky</Text>
-                <TextID>1002</TextID>
+                <TextId>1002</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Setřídí položky od nejkratší po nejdelší</Text>
-                    <TextID>1003</TextID>
+                    <TextId>1003</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
@@ -168,13 +168,13 @@
 
             <Parameter>
                 <Text>Seřadit dle průměru a délky</Text>
-                <TextID>1004</TextID>
+                <TextId>1004</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Setřídí položky nejprve podle průměru a poté podle délky</Text>
-                    <TextID>1005</TextID>
+                    <TextId>1005</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
@@ -189,7 +189,7 @@
             <Parameter>
                 <Name>lock_bend</Name>
                 <Text>Zablokování</Text>
-                <TextID>1006</TextID>
+                <TextId>1006</TextId>
                 <Value>False</Value>
                 <Visible>True</Visible>
                 <ValueType>CheckBox</ValueType>
@@ -198,7 +198,7 @@
             <Parameter>
                 <Name>round_bend</Name>
                 <Text>Zaokrouhlení</Text>
-                <TextID>1007</TextID>
+                <TextId>1007</TextId>
                 <Value>1</Value>
                 <Visible>True</Visible>
                 <ValueType>Length</ValueType>
@@ -207,7 +207,7 @@
             <Parameter>
                 <Name>identical_prefix_bend</Name>
                 <Text>Text před</Text>
-                <TextID>1008</TextID>
+                <TextId>1008</TextId>
                 <Value>False</Value>
                 <Visible>False</Visible>
                 <ValueType>CheckBox</ValueType>
@@ -216,20 +216,20 @@
             <Parameter>
                 <Name>ButtonRow</Name>
                 <Text>Ohýbané pruty</Text>
-                <TextID>1015</TextID>
+                <TextId>1015</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Přečísluje pouze ohýbané pruty a seřadí je od zadaného čísla</Text>
-                    <TextID>1016</TextID>
+                    <TextId>1016</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
                 <Parameter>
                     <Name>Button</Name>
                     <Text>Přečíslovat</Text>
-                    <TextID>1011</TextID>
+                    <TextId>1011</TextId>
                     <EventId>1002</EventId>
                     <ValueType>Button</ValueType>
                 </Parameter>
@@ -242,14 +242,14 @@
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Přečísluje a sjednotí pouze ohýbané pruty a seřadí je od zadaného čísla</Text>
-                    <TextID>1017</TextID>
+                    <TextId>1017</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
                 <Parameter>
                     <Name>Button</Name>
                     <Text>Přečíslovat a sjednotit</Text>
-                    <TextID>1013</TextID>
+                    <TextId>1013</TextId>
                     <EventId>1012</EventId>
                     <ValueType>Button</ValueType>
                 </Parameter>
@@ -264,7 +264,7 @@
             <Parameter>
                 <Name>ButtonRow</Name>
                 <Text>Vše</Text>
-                <TextID>1018</TextID>
+                <TextId>1018</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
@@ -277,7 +277,7 @@
                 <Parameter>
                     <Name>Button</Name>
                     <Text>Přečíslovat vše dle nastavení</Text>
-                    <TextID>1020</TextID>
+                    <TextId>1020</TextId>
                     <EventId>1000</EventId>
                     <ValueType>Button</ValueType>
                 </Parameter>
@@ -291,20 +291,20 @@
             <Parameter>
                 <Name>ButtonRow</Name>
                 <Text>Přečíslovat vše dle tvaru</Text>
-                <TextID>1021</TextID>
+                <TextId>1021</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Přečíslovat vše dle tvaru</Text>
-                    <TextID>1021</TextID>
+                    <TextId>1021</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
                 <Parameter>
                     <Name>Button</Name>
                     <Text>Přečíslovat</Text>
-                    <TextID>1011</TextID>
+                    <TextId>1011</TextId>
                     <EventId>3000</EventId>
                     <ValueType>Button</ValueType>
                 </Parameter>
@@ -313,20 +313,20 @@
             <Parameter>
                 <Name>ButtonRow</Name>
                 <Text>Dočasné přečíslování</Text>
-                <TextID>1022</TextID>
+                <TextId>1022</TextId>
                 <ValueType>Row</ValueType>
                 <Value>OVERALL:1</Value>
                 <Parameter>
                     <Name>InfoPicture</Name>
                     <Text>Slouží k dočasnému přesunutí prutů na vysoké pozice aby se zamezilo kolizím při přečíslování</Text>
-                    <TextID>1023</TextID>
+                    <TextId>1023</TextId>
                     <Value>AllplanSettings.PictResPalette.eHotinfo</Value>
                     <ValueType>Picture</ValueType>
                 </Parameter>
                 <Parameter>
                     <Name>Button</Name>
                     <Text>Přečíslovat (9000)</Text>
-                    <TextID>1024</TextID>
+                    <TextId>1024</TextId>
                     <EventId>2000</EventId>
                     <ValueType>Button</ValueType>
                 </Parameter>
